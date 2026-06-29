@@ -1,0 +1,23 @@
+@import './base.css';
+
+:root {
+  --bs-body-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --bs-body-color: #1e293b;
+  --bs-body-bg: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
